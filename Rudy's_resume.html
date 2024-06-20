@@ -6,24 +6,47 @@
     <meta name="keywords" content=" Resume, cv, Rudy, Durgalian, Rudy Durgalian">
     <meta name="description" content="Rudy Durgalian's resume">
     <title>Rudy resume</title>
+    <link rel="stylesheet" href="Rudy's_resume.css">
 </head>
 <body>
-<img src="img_resume/Me.jpeg" width="220" alt="Photo by Rudy Durgalian">
+    <style>
+    body{
+        margin: 7px;
+    }
+    </style>
+    
+
+<div class="cointainer">
+
+    <div class="info">
+
+    
+<img src="img_resume/Me.jpeg" alt="Photo by Rudy Durgalian" class="avatar">
+
+<div class="info-text">
+
 
 <h1>Rudy Durgalian</h1> 
 <p> I am a trader in the <strong> foreign exchange market </strong>. <br> I have been working <strong>on FOREX </strong> <em> since 2011</em> </p>  
 <p>Я люблю: <em> Милу, историю, путешествия, новые технологии и считаю, что спорт, так или иначе, должен быть неотъе́млемой частью жизни. </em></p>
 
+</div>
+</div>
+<div class="card bg-green">
 <h3>My hobbies</h3>
-<ul type="dics">
+<ul type="dics" class="list" >
     <li>Travel</li>
     <li>Martial arts</li>
     <li>Technology</li>
     <li>Hiking</li>
 </ul>
- <hr>
+</div>
+
+
+ 
+ <div class="card bg-red">
 <h2>Professional background</h2>
- <table border="2">
+ <table border="2" class="table">
     <thead>
         <tr>
             <th>Job Title</th>
@@ -41,27 +64,32 @@
  </table>
  <hr>
 <p>
+</div>
+<div class="card bg-yellow">
+   
+    <form action="" class="form">
+        <h3>Send me a message</h3>
+<div class="form-row">
 
-    <h3>Send me a message</h3>
-    <form action="">
-        <div>
+
+        <div class="form-group">
             <label for="name">Name</label>
             <input type="name" id="name" placeholder="Your Name">
         </div>
 
-        <div>
+        <div class="form-group">
         <label for="Email">E-mail</label>
         <input type="Email" id="Email" placeholder="Enter your E-mail">
         </div>
-        
-        <div>
+    </div>
+        <div class="form-group">
             <label for="message">Message</label>
             <br>
             <textarea id="message" cols="40" rows="10" placeholder="Write your reguest"></textarea>
-        </div>
-        
-        <button type="submit">Submit Message</button>
+        </div class="form-group">
+        <button type="submit" class="btn">Submit Message</button>
         </form>
+    </div>
 
 <h3>Contacts <strong></strong> </h3>  
  <em>+37498702037</em>
@@ -78,6 +106,6 @@
 
 
 
-
+</div>
 </body>
 </html>
